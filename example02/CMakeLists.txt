@@ -19,8 +19,8 @@ file(GLOB_RECURSE SOURCES
      ${CMAKE_CURRENT_SOURCE_DIR}/src/*.c)
 
 file(GLOB SHADERS 
-     "${CMAKE_CURRENT_SOURCE_DIR}/shader/*.vert" 
-     "${CMAKE_CURRENT_SOURCE_DIR}/shader/*.frag")
+     ${CMAKE_CURRENT_SOURCE_DIR}/shader/*.vert 
+     ${CMAKE_CURRENT_SOURCE_DIR}/shader/*.frag)
 
 # make exe file
 add_executable(${PROJECT_NAME} 
