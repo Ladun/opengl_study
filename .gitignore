@@ -1,6 +1,11 @@
 # Created by https://www.toptal.com/developers/gitignore/api/visualstudiocode,c,c++,cmake
 # Edit at https://www.toptal.com/developers/gitignore?templates=visualstudiocode,c,c++,cmake
 
+ **/build/
+ .vscode/*
+
+ build/.cmake/
+
 ### C ###
 # Prerequisites
 *.d
